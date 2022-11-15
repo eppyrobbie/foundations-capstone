@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Stun Grenade"
+    },
+    {
+        "id": 2,
+        "name": "Smoke Grenade"
+    },
+    {
+        "id": 3,
+        "name": "Flash Grenade"
+    },
+    {
+        "id": 4,
+        "name": "Stim"
+    },
+    {
+        "id": 5,
+        "name": "Decoy Grenade"
+    },
+    {
+        "id": 6,
+        "name": "Gas Grenade"
+    },
+    {
+        "id": 7,
+        "name": "Snapshot Grenade"
+    },
+    {
+        "id": 8,
+        "name": "Heartbeat Sensor"
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Double Time"
+    },
+    {
+        "id": 2,
+        "name": "E.O.D"
+    },
+    {
+        "id": 3,
+        "name": "Overkill"
+    },
+    {
+        "id": 4,
+        "name": "Scavenger"
+    },
+    {
+        "id": 5,
+        "name": "Cold-Blooded"
+    },
+    {
+        "id": 6,
+        "name": "Quick Fix"
+    },
+    {
+        "id": 7,
+        "name": "Restock"
+    },
+    {
+        "id": 8,
+        "name": "Hardline"
+    },
+    {
+        "id": 9,
+        "name": "High-Alert"
+    },
+    {
+        "id": 10, 
+        "name": "Ghost"
+    },
+    {
+        "id": 11,
+        "name": "Kill Chain"
+    },
+    {
+        "id": 12,
+        "name": "Pointman"
+    },
+    {
+        "id": 13,
+        "name": "Tune UP"
+    },
+    {
+        "id": 14,
+        "name": "Amped"
+    },
+    {
+        "id": 15,
+        "name": "Shrapnel"
+    },
+    {
+        "id": 16,
+        "name": "Battle Hardened"
+    },
+    {
+        "id": 17,
+        "name": "Spotter"
+    },
+    {
+        "id": 18,
+        "name": "Tracker"
+    }
+]

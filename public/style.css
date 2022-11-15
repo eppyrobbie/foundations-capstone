@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0
+}
+
+.weapon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin: 20px 0px 20px 0px
+}
+
+.weapon-box {
+    height: 150px;
+    width: 150px;
+    background: #272F2F;
+    margin: 5px;
+    display: flex;
+    padding: 15px;
+}
+
+.perk-box {
+    height: 150px;
+    width: 150px;
+    background: #272F2F;
+    color: white;
+    margin: 5px;
+    display: flex;
+    padding: 15px;
+}
+
+.tactical-box {
+    height: 150px;
+    width: 150px;
+    background: #272F2F;
+    margin: 5px;
+    display: flex;
+    padding: 15px;
+}
+
+.lethal-box {
+    height: 150px;
+    width: 150px;
+    background: #272F2F;
+    margin: 5px;
+    display: flex;
+    padding: 15px;
+}
+
+.weapon-name {
+    color: white;
+
+}
+
+.perk-name {
+    color: white;
+}
+
+.secondary {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.attachment1 {
+    height: 150px;
+    width: 150px;
+    background: #272F2F;
+    margin: 5px;
+    display: flex;
+    padding: 15px;
+}
+.attachment2 {
+    height: 150px;
+    width: 150px;
+    background: #272F2F;
+    margin: 5px;
+    display: flex;
+    padding: 15px;
+}
+.attachment3 {
+    height: 150px;
+    width: 150px;
+    background: #272F2F;
+    margin: 5px;
+    display: flex;
+    padding: 15px;
+}
+.attachment4 {
+    height: 150px;
+    width: 150px;
+    background: #272F2F;
+    margin: 5px;
+    display: flex;
+    padding: 15px;
+}
+.attachment5 {
+    height: 150px;
+    width: 150px;
+    background: #272F2F;
+    margin: 5px;
+    display: flex;
+    padding: 15px;
+}
+
+
+
+
+

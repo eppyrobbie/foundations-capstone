@@ -1,0 +1,190 @@
+[
+    {
+        "id": 1,
+        "name": "Kilo 141"
+    },
+    {
+        "id": 2,
+        "name": "FAL"
+    },
+    {
+        "id": 3,
+        "name": "M4A1"
+    },
+    {
+        "id": 4,
+        "name": "FR 5.56"
+    },
+    {
+        "id": 5,
+        "name": "Odin"
+    },
+    {
+        "id": 6,
+        "name": "M13"
+    },
+    {
+        "id": 7,
+        "name": "FN Scar 17"
+    },
+    {
+        "id": 8,
+        "name": "AK-46"
+    },
+    {
+        "id": 9,
+        "name": "RAM-7"
+    },
+    {
+        "id": 10,
+        "name": "Grau 5.56"
+    },
+    {
+        "id": 11,
+        "name": "CR-56 AMAX"
+    },
+    {
+        "id": 12,
+        "name": "AN-94"
+    },
+    {
+        "id": 13,
+        "name": "AS VAL"
+    },
+    {
+        "id": 14,
+        "name": "AUG"
+    },
+    {
+        "id": 15,
+        "name": "P90"
+    },
+    {
+        "id": 16,
+        "name": "MP5"
+    },
+    {
+        "id": 17,
+        "name": "UZI"
+    },
+    {
+        "id": 18,
+        "name": "PP19 Bizon"
+    },
+    {
+        "id": 19,
+        "name": "MP7"
+    },
+    {
+        "id": 20,
+        "name": "Striker 45"
+    },
+    {
+        "id": 21,
+        "name": "Fennec"
+    },
+    {
+        "id": 22,
+        "name": "ISO"
+    },
+    {
+        "id": 23,
+        "name": "CX-9"
+    },
+    {
+        "id": 24,
+        "name": "Model 680"
+    },
+    {
+        "id": 25,
+        "name": "R9-0 Shotgun"
+    },
+    {
+        "id": 26,
+        "name": "725"
+    },
+    {
+        "id": 27,
+        "name": "Origin 12"
+    },
+    {
+        "id": 28,
+        "name": "VLK Rogue"
+    },
+    {
+        "id": 29,
+        "name": "JAK-12"
+    },
+    {
+        "id": 30,
+        "name": "PKM"
+    },
+    {
+        "id": 31,
+        "name":"SA87"
+    },
+    {
+        "id": 32,
+        "name":"M91"
+    },
+    {
+        "id": 33,
+        "name":"MG34"
+    },
+    {
+        "id": 34,
+        "name":"Holger-26"
+    },
+    {
+        "id": 35,
+        "name":"Bruen MK9"
+    },
+    {
+        "id": 36,
+        "name":"FiNN LMG"
+    },
+    {
+        "id": 37,
+        "name":"RAAL MG"
+    },
+    {
+        "id": 38,
+        "name":"EBR-14"
+    },
+    {
+        "id": 39,
+        "name":"MK2 Carbine"
+    },
+    {
+        "id": 40,
+        "name":"Kar98k"
+    },
+    {
+        "id": 41,
+        "name":"Crossbow"
+    },
+    {
+        "id": 42,
+        "name":"SKS"
+    },
+    {
+        "id": 43,
+        "name":"SP-R 208"
+    },
+    {
+        "id": 44,
+        "name":"Dragunov"
+    }, 
+    {
+        "id": 45,
+        "name": "HDR"
+    },
+    {
+        "id": 46,
+        "name": "AX50"
+    },
+    {
+        "id": 47,
+        "name": "Rytec AMR"
+    }
+]

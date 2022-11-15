@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "name": "Flash Guard"
+    },
+    {
+        "id": 2,
+        "name": "Tactictical Supressor" 
+    },
+    {
+        "id": 3,
+        "name": "Muzzle Brake" 
+    },
+    {
+        "id": 4,
+        "name": "Lightweight Supressor"
+    },
+    {
+        "id": 5,
+        "name": "Monolithic Supressor"
+    },
+    {
+        "id": 6,
+        "name": "Signuard Arms 16.6 SOCOM"
+    },
+    {
+        "id": 7,
+        "name": "Singuard Arms 19.8 Prowler"
+    },
+    {
+        "id": 8,
+        "name": "Singuar Arms Whisper"
+    },
+    {
+        "id": 9,
+        "name": "1mW Laser"
+    },
+    {
+        "id": 10,
+        "name": "5 mW Laser"
+    },
+    {
+        "id": 11,
+        "name": "Tac Laser"
+    },
+    {
+        "id": 12,
+        "name": "Operator Reflex Sight"
+    },
+    {
+        "id": 13,
+        "name": "Corp Combat Holo Sight"
+    },
+    {
+        "id": 14,
+        "name": "G.I Mini Reflex"
+    },
+    {
+        "id": 15, 
+        "name": "Scout Combat Optic"
+    },
+    {
+        "id": 16,
+        "name": "4.0x Flip Hybrid"
+    },
+    {
+        "id": 17,
+        "name": "VLK 3.0x Optic"
+    },
+    {
+        "id": 18,
+        "name": "Sniper Scope"
+    },
+    {
+        "id": 19,
+        "name": "Merc Thermal Optic"
+    },
+    {
+        "id": 20,
+        "name": "Variable Zoom Scope"
+    },
+    {
+        "id": 21,
+        "name": "FORGE TAC Ultralight"
+    },
+    {
+        "id": 22,
+        "name": "Singuard Sniper Pro"
+    },
+    {
+        "id": 23,
+        "name": "No Stock"
+    },
+    {
+        "id": 24,
+        "name": "FS Close Quarters Stock"
+    },
+    {
+        "id": 25, 
+        "name": "Commando Foregrip"
+    },
+    {
+        "id": 26, 
+        "name": "Merc Foregrip"
+    },
+    {
+        "id": 27, 
+        "name": "M203 40mm Smokescreen"
+    },
+    {
+        "id": 28,
+        "name": "12 Guage Deputy"
+    },
+    {
+        "id": 29, 
+        "name": "Tactical Foregrip"
+    },
+    {
+        "id": 30,
+        "name": "Operator Foregrip"
+    },
+    {
+        "id": 31, 
+        "name": "Ranger Foregrip"
+    },
+    {
+        "id": 32, 
+        "name": "50 Round Mag"
+    },
+    {
+        "id": 33, 
+        "name": "Granulated Grip Tape"
+    },
+    {
+        "id": 34,
+        "name": "Rubberized Grip Tape"
+    },
+    {
+        "id": 35, 
+        "name": "Stippled Grip Tape"
+    },
+    {
+        "id": 36, 
+        "name": "FMJ"
+    },
+    {
+        "id": 37, 
+        "name": "Heavy Hitter"
+    },
+    {
+        "id": 38,
+        "name": "Recon"
+    },
+    {
+        "id": 39,
+        "name": "Frangible - Wounding"
+    },
+    {
+        "id": 40, 
+        "name": "Sleight of Hand"
+    },
+    {
+        "id": 41, 
+        "name": "Burst"
+    }
+    
+]
