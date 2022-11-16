@@ -1,6 +1,8 @@
 body {
     margin: 0;
-    padding: 0
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DDFFF7;
 }
 
 .weapon-container {
@@ -17,7 +19,17 @@ body {
     background: #272F2F;
     margin: 5px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 15px;
+}
+
+#weapon1 {
+    font-size: x-large;
+}
+
+#weapon2 {
+    font-size: x-large;
 }
 
 .perk-box {
@@ -28,6 +40,7 @@ body {
     margin: 5px;
     display: flex;
     padding: 15px;
+    font-size: large;
 }
 
 .tactical-box {
@@ -37,6 +50,7 @@ body {
     margin: 5px;
     display: flex;
     padding: 15px;
+    font-size: larger;
 }
 
 .lethal-box {
@@ -46,6 +60,7 @@ body {
     margin: 5px;
     display: flex;
     padding: 15px;
+    font-size: larger;
 }
 
 .weapon-name {
@@ -57,53 +72,192 @@ body {
     color: white;
 }
 
-.secondary {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
 
 .attachment1 {
     height: 150px;
     width: 150px;
     background: #272F2F;
+    color: white;
     margin: 5px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 15px;
 }
 .attachment2 {
     height: 150px;
     width: 150px;
     background: #272F2F;
+    color: white;
     margin: 5px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 15px;
 }
 .attachment3 {
     height: 150px;
     width: 150px;
     background: #272F2F;
+    color: white;
     margin: 5px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 15px;
 }
 .attachment4 {
     height: 150px;
     width: 150px;
     background: #272F2F;
+    color: white;
     margin: 5px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 15px;
 }
 .attachment5 {
     height: 150px;
     width: 150px;
     background: #272F2F;
+    color: white;
     margin: 5px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 15px;
 }
 
+.attachment6 {
+    height: 150px;
+    width: 150px;
+    background: #272F2F;
+    color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.attachment7 {
+    height: 150px;
+    width: 150px;
+    background: #272F2F;
+    color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.attachment8 {
+    height: 150px;
+    width: 150px;
+    background: #272F2F;
+    color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.attachment9 {
+    height: 150px;
+    width: 150px;
+    background: #272F2F;
+    color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.attachment10 {
+    height: 150px;
+    width: 150px;
+    background: #272F2F;
+    color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.perk-box1 {
+    height: 150px;
+    width: 150px;
+    background-color: #272F2F;
+    color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: larger;
+}
+
+.perk-box2 {
+    height: 150px;
+    width: 150px;
+    background-color: #272F2F;
+    color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: larger;
+}
+
+.tactical-box {
+    height: 150px;
+    width: 150px;
+    background-color: #272F2F;
+    color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.lethal-box {
+    height: 150px;
+    width: 150px;
+    background-color: #272F2F;
+    color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    
+}
+h3 {
+    margin-left: 55px;
+}
+
+.nav-buttons{
+    display: flex;
+    justify-content: space-around;
+}
 
 
+/* .random-weapon {
+    height: 50px;
+    width: 150px;
+    background-color: #272F2F;
+    display: flex;
+    justify-content: center;
+} */
 
-
+.randomize-just-primary {
+    height: 25px;
+    width: 125px;
+}

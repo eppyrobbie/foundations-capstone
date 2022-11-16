@@ -9,7 +9,7 @@ const port = process.env.PORT || 5050
 app.use(express.json())
 app.use(cors())
 
-const { getPrimary, getSecondary, getAttachment1, getAttachment2, getAttachment3, getAttachment4, getAttachment5, saveLoadout, getPerk } = require('./controller.js')
+const { getPrimary, getSecondary, getAttachment1, getAttachment2, getAttachment3, getAttachment4, getAttachment5, getAttachment6, getAttachment7, getAttachment8, getAttachment9, getAttachment10, saveLoadout, getPerk1, getPerk2, getTactical, getLethal } = require('./controller.js')
 
 //app.get('/homepage', homepage)
 app.get('/getPrimary', getPrimary)
@@ -19,8 +19,17 @@ app.get('/getAttachment2', getAttachment2)
 app.get('/getAttachment3', getAttachment3)
 app.get('/getAttachment4', getAttachment4)
 app.get('/getAttachment5', getAttachment5)
+app.get('/getAttachment6', getAttachment6)
+app.get('/getAttachment7', getAttachment7)
+app.get('/getAttachment8', getAttachment8)
+app.get('/getAttachment9', getAttachment9)
+app.get('/getAttachment10', getAttachment10)
+app.get('/getPerk1', getPerk1)
+app.get('/getPerk2', getPerk2)
+app.get('/getTactical', getTactical)
+app.get('/getLethal', getLethal)
 app.post('/saveLoadout', saveLoadout)
-app.get('/getPerk', getPerk)
+
 
 
 

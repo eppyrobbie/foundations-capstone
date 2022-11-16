@@ -8,69 +8,113 @@
     <title>Loadout Generator</title>
   </head>
   <body>
-    <h1>Warzone Loadout Generator</h1>
-    <div id="primary-gun">
-      <button id="primary-button">primary</button>
-    </div>
-    
-    <div id="secondary-gun">
-        <button id="secondary-button">secondary</button>
-    </div>
-    
 
+
+    <h1>Warzone Loadout Generator</h1>
+    <div class="nav-buttons">
+      <button class="random-class">Random Class</button>
+      <button class="'save">Save Loadout</button>
+    </div>
+   
+    
+    
+<h3>Primary Weapon</h3>
     <div class="weapon-container">
-      <div class="weapon-box">
-        <p class="weapon-name primary"></p>
+      <div class="weapon-box" id="weapon1">
+        
+          <div class="random-weapon">
+            <button class="randomize-just-primary">Randomize</button>
+          </div>
+        
+          <p class="weapon-name primary"></p>
         </div>
-        <div class="attachment1" > 
+      
+        
+      <div class="attachment1" > 
+
+          <!-- <div class="random-weapon"> -->
+            <!-- </div> -->
+            <button class="randomize-attach1">Randomize</button>
             <p class="attachment-name primary-attach-name-1"></p>  
-        </div>
-        <div class="attachment2" >
+      </div>
+      <div class="attachment2" >
+
+          <button class="randomize-attach2">Randomize</button>
             <p class="attachment-name primary-attach-name-2"></p>   
-        </div>
-        <div class="attachment3" >
+      </div>
+      <div class="attachment3" >
+
+        <button class="randomize-attach3">Randomize</button>
             <p class="attachment-name primary-attach-name-3"></p> 
-        </div>
-        <div class="attachment4" >
+      </div>
+      <div class="attachment4" >
+
+        <button class="randomize-attach4">Randomize</button>
             <p class="attachment-name primary-attach-name-4"></p>
-        </div>
-        <div class="attachment5" >
+      </div>
+      <div class="attachment5" >
+
+        <button class="randomize-attach5">Randomize</button>
             <p class="attachment-name primary-attach-name-5"></p>
-        </div>
+      </div>
       </div>
 
 
-
+<h3>Secondary Weapon</h3>
     <div class="weapon-container">
-      <div class="weapon-box">
+      <div class="weapon-box" id="weapon2">
+
+        <button class="randomize-just-secondary">Randomize</button>
         <p class="weapon-name secondary"></p>
       </div>
-      <div class="attachments secondary-attachment-1" >
+      <div class="attachment6" >
+
+        <button class="randomize-attach6">Randomize</button>
         <p class="attachment-name secondary-attach-name-1"></p>  
     </div>
-    <div class="attachments secondary-attachment-2" >
+    <div class="attachment7" >
+
+      <button class="randomize-attach7">Randomize</button>
         <p class="attachment-name secondary-attach-name-2"></p>
     </div>
-    <div class="attachments secondary-attachment-3" >
+    <div class="attachment8" >
+
+      <button class="randomize-attach8">Randomize</button>
         <p class="attachment-name secondary-attach-name-3"></p>
     </div>
-    <div class="attachments secondary-attachment-4" >
+    <div class="attachment9" >
+
+      <button class="randomize-attach9">Randomize</button>
         <p class="attachment-name secondary-attach-name-4"></p>
     </div>
-    <div class="attachments secondary-attachment-5" >
+    <div class="attachment10" >
+
+      <button class="randomize-attach10">Randomize</button>
         <p class="attachment-name secondary-attach-name-5"></p>
     </div>
     </div>
 
     <div class="weapon-container">
-      <div class="perk-box">
-        <p class="perk-name"></p>
+      <div class="perk-box1">
+
+        <button class="randomize-perk1">Randomize</button>
+        <p class="perk-name1"></p>
       </div>
-      <div class="perk-box">
-        <p class="perk-name"></p>
+      <div class="perk-box2">
+
+        <button class="randomize-perk2">Randomize</button>
+        <p class="perk-name2"></p>
       </div>
-      <div class="tactical-box"></div>
-      <div class="lethal-box"></div>
+      <div class="tactical-box">
+
+        <button class="randomize-tactical">Randomize</button>
+        <p class="tactical-name"></p>
+      </div>
+      <div class="lethal-box">
+
+        <button class="randomize-lethal">Randomize</button>
+        <p class="lethal-name"></p>
+      </div>
     </div>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>

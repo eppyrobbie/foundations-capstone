@@ -3,6 +3,8 @@ const secondary = require('./secondarydb.json')
 const attachment = require('./attachmentdb.json')
 const savedLoadout = require('./savedLoadout.json')
 const perk = require('./perkdb.json')
+const tactical = require('./tacticaldb.json')
+const lethal = require('./lethaldb.json')
 
 module.exports = {
     getPrimary: (req, res) => {
@@ -40,16 +42,55 @@ module.exports = {
         res.status(200).send(attachment)
     },
 
+    getAttachment6: (req, res) => {
+        console.log(attachment)
+        res.status(200).send(attachment)
+    },
+
+    getAttachment7: (req, res) => {
+        console.log(attachment)
+        res.status(200).send(attachment)
+    },
+
+    getAttachment8: (req, res) => {
+        console.log(attachment)
+        res.status(200).send(attachment)
+    },
+
+    getAttachment9: (req, res) => {
+        console.log(attachment)
+        res.status(200).send(attachment)
+    },
+
+    getAttachment10: (req, res) => {
+        console.log(attachment)
+        res.status(200).send(attachment)
+    },
+
     saveLoadout: (req, res) => {
         // console.log(req.body)
         savedLoadout.push(req.body)
         console.log(savedLoadout)
     },
     
-    getPerk: (req, res) => {
+    getPerk1: (req, res) => {
         //console.log(perk)
         console.log(req.body)
         res.status(200).send(perk)
+    },
+
+    getPerk2: (req, res) => {
+        //console.log(perk)
+        console.log(req.body)
+        res.status(200).send(perk)
+    },
+    getTactical: (req, res) => {
+        console.log(tactical)
+        res.status(200).send(tactical)
+    },
+    getLethal: (req, res) => {
+        console.log(lethal)
+        res.status(200).send(lethal)
     }
 
 }
