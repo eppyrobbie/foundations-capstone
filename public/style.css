@@ -91,7 +91,7 @@ body {
 .attachment1 {
     height: 150px;
     width: 150px;
-    background: #d9dbf1;
+    background: #A99451;
     color: white;
     margin: 5px;
     display: flex;
@@ -104,7 +104,7 @@ body {
 .attachment2 {
     height: 150px;
     width: 150px;
-    background: #d9dbf1;
+    background: #A99451;
     color: white;
     margin: 5px;
     display: flex;
@@ -117,7 +117,7 @@ body {
 .attachment3 {
     height: 150px;
     width: 150px;
-    background: #d9dbf1;
+    background: #A99451;
     color: white;
     margin: 5px;
     display: flex;
@@ -130,7 +130,7 @@ body {
 .attachment4 {
     height: 150px;
     width: 150px;
-    background: #d9dbf1;
+    background: #A99451;
     color: white;
     margin: 5px;
     display: flex;
@@ -143,7 +143,7 @@ body {
 .attachment5 {
     height: 150px;
     width: 150px;
-    background: #d9dbf1;
+    background: #A99451;
     color: white;
     margin: 5px;
     display: flex;
@@ -157,7 +157,7 @@ body {
 .attachment6 {
     height: 150px;
     width: 150px;
-    background: #d9dbf1;
+    background: #A99451;
     color: white;
     margin: 5px;
     display: flex;
@@ -170,7 +170,7 @@ body {
 .attachment7 {
     height: 150px;
     width: 150px;
-    background: #d9dbf1;
+    background: #A99451;
     color: white;
     margin: 5px;
     display: flex;
@@ -183,7 +183,7 @@ body {
 .attachment8 {
     height: 150px;
     width: 150px;
-    background: #d9dbf1;
+    background: #A99451;
     color: white;
     margin: 5px;
     display: flex;
@@ -196,7 +196,7 @@ body {
 .attachment9 {
     height: 150px;
     width: 150px;
-    background: #d9dbf1;
+    background: #A99451;
     color: white;
     margin: 5px;
     display: flex;
@@ -209,7 +209,7 @@ body {
 .attachment10 {
     height: 150px;
     width: 150px;
-    background: #d9dbf1;
+    background: #A99451;
     color: white;
     margin: 5px;
     display: flex;
@@ -317,7 +317,7 @@ p {
 }
 
 #header-img {
-    height: 180px;
+    height: 200px;
     width: 500px;
     margin-left: 465px;
     
@@ -336,7 +336,8 @@ p {
 }
 
 button {
-    cursor: pointer
+    cursor: pointer;
+    font-family: inherit;
 }
 
 
