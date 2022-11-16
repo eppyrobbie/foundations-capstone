@@ -1,9 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #DDFFF7;
+    font-family: tahoma, sans-serif; 
+    background-color: #B0B5B3;
 }
+
+
 
 .weapon-container {
     display: flex;
@@ -16,13 +18,14 @@ body {
 .weapon-box {
     height: 150px;
     width: 150px;
-    background: #272F2F;
+    background: #011936;
     margin: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 15px;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #191716;
 }
 
 #weapon1 {
@@ -32,6 +35,7 @@ body {
 #weapon2 {
     font-size: x-large;
 }
+
 
 .perk-box {
     height: 150px;
@@ -43,6 +47,8 @@ body {
     padding: 15px;
     font-size: large;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #191716;
+    
 }
 
 .tactical-box {
@@ -54,6 +60,8 @@ body {
     padding: 15px;
     font-size: larger;
     border-radius: 25px;
+     box-shadow: 5px 5px 5px #191716;
+    
 }
 
 .lethal-box {
@@ -65,10 +73,12 @@ body {
     padding: 15px;
     font-size: larger;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #191716;
 }
 
 .weapon-name {
     color: white;
+    font-size: x-large;
 
 }
 
@@ -80,7 +90,7 @@ body {
 .attachment1 {
     height: 150px;
     width: 150px;
-    background: #272F2F;
+    background: #465362;
     color: white;
     margin: 5px;
     display: flex;
@@ -88,11 +98,12 @@ body {
     justify-content: space-between;
     padding: 15px;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #191716;
 }
 .attachment2 {
     height: 150px;
     width: 150px;
-    background: #272F2F;
+    background: #465362;
     color: white;
     margin: 5px;
     display: flex;
@@ -100,11 +111,12 @@ body {
     justify-content: space-between;
     padding: 15px;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #191716;
 }
 .attachment3 {
     height: 150px;
     width: 150px;
-    background: #272F2F;
+    background: #465362;
     color: white;
     margin: 5px;
     display: flex;
@@ -112,11 +124,12 @@ body {
     justify-content: space-between;
     padding: 15px;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #191716;
 }
 .attachment4 {
     height: 150px;
     width: 150px;
-    background: #272F2F;
+    background: #465362;
     color: white;
     margin: 5px;
     display: flex;
@@ -124,11 +137,12 @@ body {
     justify-content: space-between;
     padding: 15px;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #191716;
 }
 .attachment5 {
     height: 150px;
     width: 150px;
-    background: #272F2F;
+    background: #465362;
     color: white;
     margin: 5px;
     display: flex;
@@ -136,12 +150,13 @@ body {
     justify-content: space-between;
     padding: 15px;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #191716;
 }
 
 .attachment6 {
     height: 150px;
     width: 150px;
-    background: #272F2F;
+    background: #465362;
     color: white;
     margin: 5px;
     display: flex;
@@ -149,11 +164,12 @@ body {
     justify-content: space-between;
     padding: 15px;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #191716;
 }
 .attachment7 {
     height: 150px;
     width: 150px;
-    background: #272F2F;
+    background: #465362;
     color: white;
     margin: 5px;
     display: flex;
@@ -161,11 +177,12 @@ body {
     justify-content: space-between;
     padding: 15px;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #191716;
 }
 .attachment8 {
     height: 150px;
     width: 150px;
-    background: #272F2F;
+    background: #465362;
     color: white;
     margin: 5px;
     display: flex;
@@ -173,11 +190,12 @@ body {
     justify-content: space-between;
     padding: 15px;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #191716;
 }
 .attachment9 {
     height: 150px;
     width: 150px;
-    background: #272F2F;
+    background: #465362;
     color: white;
     margin: 5px;
     display: flex;
@@ -185,11 +203,12 @@ body {
     justify-content: space-between;
     padding: 15px;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #191716;
 }
 .attachment10 {
     height: 150px;
     width: 150px;
-    background: #272F2F;
+    background: #465362;
     color: white;
     margin: 5px;
     display: flex;
@@ -197,12 +216,16 @@ body {
     justify-content: space-between;
     padding: 15px;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #191716;
 }
+
+
+
 
 .perk-box1 {
     height: 150px;
     width: 150px;
-    background-color: #272F2F;
+    background-color: #465362;
     color: white;
     margin: 5px;
     display: flex;
@@ -211,12 +234,13 @@ body {
     padding: 15px;
     font-size: larger;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #191716;
 }
 
 .perk-box2 {
     height: 150px;
     width: 150px;
-    background-color: #272F2F;
+    background-color: #465362;
     color: white;
     margin: 5px;
     display: flex;
@@ -225,12 +249,13 @@ body {
     padding: 15px;
     font-size: larger;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #191716;
 }
 
 .tactical-box {
     height: 150px;
     width: 150px;
-    background-color: #272F2F;
+    background-color: #465362;
     color: white;
     margin: 5px;
     display: flex;
@@ -238,12 +263,13 @@ body {
     justify-content: space-between;
     padding: 15px;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #191716;
 }
 
 .lethal-box {
     height: 150px;
     width: 150px;
-    background-color: #272F2F;
+    background-color: #465362;
     color: white;
     margin: 5px;
     display: flex;
@@ -251,19 +277,74 @@ body {
     justify-content: space-between;
     padding: 15px;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #191716;
 }
 
 h1 {
     text-align: center;
-    
 }
-h3 {
-    margin-left: 55px;
+h2 {
+    margin-left: 60px;
+}
+
+.header-p {
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
 
 .nav-buttons{
     display: flex;
     justify-content: space-around;
+   
+}
+
+.buttons{
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.buttons:hover {background-color:#C3C3C3}
+
+.buttons:active {
+  background-color: #C3C3C3;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.other-buttons {
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.other-buttons:hover {background-color:#C3C3C3}
+
+.other-buttons:active {
+    background-color: #C3C3C3;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.line {
+    opacity: 0.6;
+    width: 1300px;
+    height: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#666;
+}
+
+.box-line {
+    opacity: 0.6;
+    width: 150px;
+    height: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
+    background-color:#666;
 }
 
 
@@ -275,10 +356,6 @@ h3 {
     justify-content: center;
 } */
 
-.randomize-just-primary {
-    height: 25px;
-    width: 125px;
-}
 
 
 
@@ -288,50 +365,3 @@ h3 {
 
 
 
-<!-- HTML !-->
-<button class="button-28" role="button">Button 28</button>
-
-/* CSS */
-.button-28 {
-  appearance: none;
-  background-color: transparent;
-  border: 2px solid #1A1A1A;
-  border-radius: 15px;
-  box-sizing: border-box;
-  color: #3B3B3B;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 16px;
-  font-weight: 600;
-  line-height: normal;
-  margin: 0;
-  min-height: 60px;
-  min-width: 0;
-  outline: none;
-  padding: 16px 24px;
-  text-align: center;
-  text-decoration: none;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: 100%;
-  will-change: transform;
-}
-
-.button-28:disabled {
-  pointer-events: none;
-}
-
-.button-28:hover {
-  color: #fff;
-  background-color: #1A1A1A;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-  transform: translateY(-2px);
-}
-
-.button-28:active {
-  box-shadow: none;
-  transform: translateY(0);
-}
