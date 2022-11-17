@@ -68,9 +68,10 @@ module.exports = {
     },
 
     saveLoadout: (req, res) => {
-        // console.log(req.body)
+        console.log('hit saveloadout')
+        res.status(200).send('success')
         savedLoadout.push(req.body)
-        console.log(savedLoadout)
+       // console.log(savedLoadout)
     },
     
     getPerk1: (req, res) => {

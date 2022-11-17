@@ -342,14 +342,33 @@ function randomPerk1() {
 
 
 //--------Save Loadout-----------
-// function saveLoadout() {
-//     let body = {
 
-//     }
-//     axios.post('/saveLoadout', body).then((res) => {
-//         console.log(res.data)
-//     })
-// }
+function getValue (arr) {
+  let data = []
+  arr.forEach(item => {
+    data.push(item.value)
+  })
+  return data
+}
+
+
+function saveLoadout() {
+    //console.log('hit saveloadout')
+    let primaryElement = document.querySelectorAll('.primary')
+    let secondaryElement = document.querySelectorAll('.secondary')
+    let perkElement = document.querySelectorAll('.perk')
+    let equipmentElement = document.querySelectorAll('.equipment')
+  let body = {
+    primary: getValue(primaryElement),
+    secondary: getValue(secondaryElement),
+    perk: getValue(perkElement),
+    equipment: getValue(equipmentElement)
+    }
+    axios.post('http://localhost:5005/saveLoadout', body).then((res) => {
+        Swal.fire('Loadout Saved')
+        
+    })
+}
 
 
 
@@ -394,6 +413,16 @@ function randomizeJustPrimary () {
 
 randomJustPrimary.addEventListener("click", randomizeJustPrimary)
 
+
+
+//--------------Save Loadout------------------
+const savingLoadout = document.querySelector(".save")
+
+function saveLoad () {
+  saveLoadout()
+}
+
+savingLoadout.addEventListener("click", saveLoad)
 
 
 

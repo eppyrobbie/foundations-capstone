@@ -4,7 +4,7 @@ const path = require('path')
 const cors = require('cors')
 
 require('dotenv').config()
-const port = process.env.PORT || 5050
+const PORT = process.env.PORT || 5500
 
 app.use(express.json())
 app.use(cors())
@@ -33,7 +33,7 @@ app.post('/saveLoadout', saveLoadout)
 
 
 
-app.listen(5005, () => console.log('running on 5005'))
+app.listen(PORT, () => console.log(`running on ${PORT}`))
 
 
 
